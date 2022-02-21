@@ -7,9 +7,9 @@ class MainDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Drawer(
       backgroundColor: Colors.amber,
-      body: ListView(
+      child: ListView(
         children: [
           DrawerHeader(
               child: Row(
@@ -84,12 +84,7 @@ class MainDrawer extends StatelessWidget {
             title: Text('Rase a Complant'),
           ),
           ListTile(
-            onTap: () {
-              // Navigator.push(context,
-              //     MaterialPageRoute(builder: (context) => CategoryPage()));
-
-              ////// CategoryPage
-            },
+            onTap: () {},
             leading: Icon(Icons.format_quote_outlined),
             title: Text('Catagories'),
           ),
@@ -112,7 +107,7 @@ class MainDrawer extends StatelessWidget {
                       SizedBox(
                         width: 10,
                       ),
-                      Text('01959 022330'),
+                      Text('01959 888848'),
                     ],
                   ),
                   Row(
@@ -121,7 +116,7 @@ class MainDrawer extends StatelessWidget {
                       SizedBox(
                         width: 10,
                       ),
-                      Text('01959 022330'),
+                      Text('01959 888848'),
                     ],
                   ),
                 ],
